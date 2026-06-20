@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+myenv/
+venv/
+.venv/
+env/
+
+# Environment secrets — NEVER commit this
+.env
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
+*.db-x-checkpoints*
+
+# FAISS vector stores (rebuilt from source documents)
+vector_stores/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Streamlit cache
+.streamlit/
